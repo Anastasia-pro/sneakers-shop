@@ -36,7 +36,7 @@ function Home({
                         <img
                             onClick={() => setSearchValue('')}
                             className="clear remove-btn cu-p"
-                            src="sneakers-shop/imgs/btn-remove.svg"
+                            src="/sneakers-shop/imgs/btn-remove.svg"
                             alt="clear"
                         />}
                     {/* если есть что-то то кнопка будет, если пусто то кнопка не появляется */}
