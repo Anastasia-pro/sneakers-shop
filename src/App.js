@@ -79,7 +79,7 @@ function App() {
         {cartOpened && <Drawer items={cartItems} onClose={() => { setCartOpened(false) }} onRemove={onRemoveItem} />}
         <Header onClickCart={() => { setCartOpened(true) }} />
         <Routes>
-          <Route path="/" element={<Home
+          <Route path="/sneakers-shop" element={<Home
             items={items}
             cartItems={cartItems}
             searchValue={searchValue}
