@@ -31,12 +31,12 @@ function Home({
             <div className="d-flex align-center mb-40 justify-between">
                 <h1>{searchValue ? `Поиск по запросу: "${searchValue}"` : 'Все кроссовки'}</h1>
                 <div className="search-block d-flex">
-                    <img src="/imgs/search.svg" alt="search-icon" />
+                    <img src="sneakers-shop/imgs/search.svg" alt="search-icon" />
                     {searchValue &&
                         <img
                             onClick={() => setSearchValue('')}
                             className="clear remove-btn cu-p"
-                            src="imgs/btn-remove.svg"
+                            src="sneakers-shop/imgs/btn-remove.svg"
                             alt="clear"
                         />}
                     {/* если есть что-то то кнопка будет, если пусто то кнопка не появляется */}

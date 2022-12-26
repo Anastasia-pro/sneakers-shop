@@ -48,7 +48,7 @@ function Card({ id,
                         {onFav &&
                             (<div className={style.fav} onClick={onClickFav}>
                                 <img
-                                    src={isFav ? "/imgs/red-heart.svg" : "imgs/grey-heart.svg"}
+                                    src={isFav ? "sneakers-shop/imgs/red-heart.svg" : "sneakers-shop/imgs/grey-heart.svg"}
                                     alt="unliked-card"
                                 />
                             </div>)
@@ -64,7 +64,7 @@ function Card({ id,
                                 <img
                                     className={style.plus}
                                     onClick={handlePlus}
-                                    src={isItemAdded(id) ? "/imgs/selected.svg" : "/imgs/plus-btn.svg"}
+                                    src={isItemAdded(id) ? "sneakers-shop/imgs/selected.svg" : "sneakers-shop/imgs/plus-btn.svg"}
                                     alt="plus-btn">
                                 </img>
                             )}
