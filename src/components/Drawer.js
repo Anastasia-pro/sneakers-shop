@@ -51,7 +51,7 @@ function Drawer({ onClose, onRemove, items = [] }) { //Деструктуриз�
                         <div className="d-flex flex-column flex"> <div className="items">
                             {items.map((obj) => (
                                 <div key={obj.id} className="cart-item d-flex align-center mb-20">
-                                    <div className="cart-item__img" style={{ backgroundImage: `url.${obj.imageUrl})` }}></div>
+                                    <div className="cart-item__img" style={{ backgroundImage: `url(.${obj.imageUrl})` }}></div>
                                     <div className="mr-20 flex">
                                         <p className="mb-5">{obj.title}</p>
                                         <b>{obj.price}</b>

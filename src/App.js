@@ -90,11 +90,11 @@ function App() {
             isLoading={isLoading}
           />}>
           </Route>
-          <Route path="/Favs" element={<Favourites
+          <Route path="/sneakers-shop/Favs" element={<Favourites
             onAddToFavs={onAddToFavs}
           />}>
           </Route>
-          <Route path="/orders" element={<Orders />}>
+          <Route path="/sneakers-shop/orders" element={<Orders />}>
           </Route>
         </Routes>
       </div >
