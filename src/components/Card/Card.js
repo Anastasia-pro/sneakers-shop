@@ -56,7 +56,7 @@ function Card({ id,
                         <img
                             width="100%"
                             height={135}
-                            src={imageUrl}
+                            src={`.${imageUrl}`}
                             alt="sneakers">
                         </img>
                         <h5>{title}</h5>
